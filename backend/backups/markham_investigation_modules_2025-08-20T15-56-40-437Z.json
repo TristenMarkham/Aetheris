@@ -1,0 +1,36 @@
+{
+  "companyId": "markham_investigation",
+  "backupType": "modules",
+  "description": "Backup before deleting all 3 modules",
+  "timestamp": "2025-08-20T15:56:40.437Z",
+  "createdBy": "tristen",
+  "data": [
+    {
+      "id": "1755699694543",
+      "name": "CRM",
+      "description": "Customer Relationship Management module",
+      "features": [],
+      "created": "2025-08-20T14:21:34.543Z",
+      "createdBy": "tristen",
+      "type": "ai_generated"
+    },
+    {
+      "id": "1755700375536",
+      "name": "Biweekly Payroll",
+      "description": "Enhanced payroll module with features like employee attendance tracking, hourly rate calculation, overtime calculation, deductions and benefits management, payroll processing and generation, and employee payment history tracking.",
+      "features": [],
+      "created": "2025-08-20T14:32:55.536Z",
+      "createdBy": "tristen",
+      "type": "ai_generated"
+    },
+    {
+      "id": "1755702096852",
+      "name": "Vendor Module",
+      "description": "Module to manage vendor information and contracts",
+      "features": [],
+      "created": "2025-08-20T15:01:36.852Z",
+      "createdBy": "tristen",
+      "type": "ai_generated"
+    }
+  ]
+}

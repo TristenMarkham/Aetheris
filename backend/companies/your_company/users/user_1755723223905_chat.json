@@ -1,0 +1,19 @@
+{
+  "userId": "user_1755723223905",
+  "companyId": "your_company",
+  "chatHistory": [
+    {
+      "role": "user",
+      "content": "hello ",
+      "timestamp": "2025-08-20T20:53:43.938Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Hello! How can I assist you today?",
+      "timestamp": "2025-08-20T20:53:44.823Z"
+    }
+  ],
+  "personalInfo": {},
+  "preferences": {},
+  "lastActivity": "2025-08-20T20:53:44.825Z"
+}

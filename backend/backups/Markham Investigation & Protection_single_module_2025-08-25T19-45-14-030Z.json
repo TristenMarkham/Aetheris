@@ -1,0 +1,16 @@
+{
+  "companyId": "Markham Investigation & Protection",
+  "backupType": "single_module",
+  "description": "Backup of module: Camera Module",
+  "timestamp": "2025-08-25T19:45:14.030Z",
+  "createdBy": "tristen",
+  "data": {
+    "id": "1755901018535",
+    "name": "Camera Module",
+    "description": "Module for camera surveillance features",
+    "features": [],
+    "created": "2025-08-22T22:16:58.535Z",
+    "createdBy": "tristen",
+    "type": "ai_generated"
+  }
+}

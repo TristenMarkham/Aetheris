@@ -1,0 +1,34 @@
+{
+  "companyId": "Markham Investigation & Protection",
+  "backupType": "multiple_clients",
+  "description": "Deleted 2 clients matching: Demoins rail",
+  "timestamp": "2025-08-22T22:16:09.468Z",
+  "createdBy": "tristen",
+  "data": [
+    {
+      "id": 3,
+      "name": "Demoins rail",
+      "type": "Business",
+      "monthly_revenue": 7834,
+      "contract_start": "2025-08-22T20:12:09.051Z",
+      "contact_person": "Unknown",
+      "status": "Active",
+      "revenue": 235000,
+      "contract_details": {
+        "hourlyRate": 45.23,
+        "weeklyHours": 40,
+        "weeklyRevenue": 1809.1999999999998
+      },
+      "billingRate": 45.23
+    },
+    {
+      "id": 4,
+      "name": "Demoins rail",
+      "type": "Business",
+      "monthly_revenue": 235000,
+      "contract_start": "2025-08-22T20:13:21.743Z",
+      "contact_person": "Unknown",
+      "status": "Active"
+    }
+  ]
+}

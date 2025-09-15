@@ -1,0 +1,85 @@
+```yaml
+version: '3'
+services:
+  nodejs:
+    build: ./backend
+    volumes:
+      - ./backend:/usr/src/app
+    ports:
+      - 3000:3000
+    networks:
+      - app-network
+    environment:
+      - DB_URL=mongodb://mongo:27017/businessdb
+      - REDIS_URL=redis://redis:6379
+    depends_on:
+      - mongo
+      - redis
+
+  react:
+    build: ./frontend
+    volumes:
+      - ./frontend:/usr/src/app
+    networks:
+      - app-network
+    depends_on:
+      - nodejs
+    environment:
+      - NODE_ENV=production
+    command: ["nginx", "-g", "daemon off;"]
+
+  mongo:
+    image: mongo
+    volumes:
+      - mongo-data:/data/db
+    networks:
+      - app-network
+
+  redis:
+    image: redis
+    volumes:
+      - redis-data:/data
+    networks:
+      - app-network
+
+  file-storage:
+    image: minio/minio
+    volumes:
+      - file-storage-data:/data
+    networks:
+      - app-network
+    command: server /data
+
+  load-balancer:
+    image: nginx
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+    ports:
+      - 80:80
+      - 443:443
+    networks:
+      - app-network
+    depends_on:
+      - nodejs
+      - react
+
+  certbot:
+    image: certbot/certbot
+    volumes:
+      - certs:/etc/letsencrypt
+      - ./certbot.conf:/etc/certbot/conf
+    depends_on:
+      - load-balancer
+
+networks:
+  app-network:
+    driver: bridge
+
+volumes:
+  mongo-data:
+  redis-data:
+  file-storage-data:
+  certs:
+```
+
+This is a basic configuration and might need to be adjusted based on the specific requirements of your application. For example, you might need to add more environment variables, adjust the paths for the volumes, or add more services.

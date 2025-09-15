@@ -1,0 +1,114 @@
+{
+  "companyInfo": {
+    "id": "Markham Investigation & Protection",
+    "name": "Markham Investigation & Protection",
+    "industry": "general",
+    "founded": "2025-09-08T17:18:39.144Z",
+    "settings": {}
+  },
+  "employees": [
+    {
+      "id": 1,
+      "name": "John Smith",
+      "role": "security guard",
+      "status": "Active",
+      "site": "Unassigned",
+      "hourlyRate": 20,
+      "phone": null,
+      "schedule": null,
+      "dateHired": "2025-09-08T17:23:27.384Z",
+      "statusHistory": [
+        {
+          "timestamp": "2025-09-08T17:23:27.384Z",
+          "previousStatus": null,
+          "newStatus": "Active",
+          "reason": "Initial hire",
+          "notes": "New employee added to system",
+          "changedBy": "system",
+          "changeId": 1757352207384
+        }
+      ],
+      "eligibleForRehire": true,
+      "lastStatusChange": "2025-09-08T17:23:27.384Z"
+    },
+    {
+      "id": 1,
+      "name": "John Smith",
+      "role": "security guard",
+      "status": "Active",
+      "site": "Unassigned",
+      "hourlyRate": 20,
+      "phone": null,
+      "schedule": null,
+      "dateHired": "2025-09-08T17:23:13.465Z",
+      "statusHistory": [
+        {
+          "timestamp": "2025-09-08T17:23:13.465Z",
+          "previousStatus": null,
+          "newStatus": "Active",
+          "reason": "Initial hire",
+          "notes": "New employee added to system",
+          "changedBy": "system",
+          "changeId": 1757352193465
+        }
+      ],
+      "eligibleForRehire": true,
+      "lastStatusChange": "2025-09-08T17:23:13.465Z"
+    },
+    {
+      "id": 2,
+      "name": "William Markham",
+      "role": "Security Guard",
+      "status": "Active",
+      "site": "Unassigned",
+      "hourlyRate": 23,
+      "phone": null,
+      "schedule": null,
+      "dateHired": "2025-09-12T20:07:21.929Z",
+      "statusHistory": [
+        {
+          "timestamp": "2025-09-12T20:07:21.929Z",
+          "previousStatus": null,
+          "newStatus": "Active",
+          "reason": "Initial hire",
+          "notes": "New employee added to system",
+          "changedBy": "system",
+          "changeId": 1757707641929
+        }
+      ],
+      "eligibleForRehire": true,
+      "lastStatusChange": "2025-09-12T20:07:21.929Z"
+    }
+  ],
+  "clients": [
+    {
+      "id": 1,
+      "name": "ABC Corp",
+      "type": "Business",
+      "monthly_revenue": 5000,
+      "contract_start": "2025-09-08T17:24:17.670Z",
+      "contact_person": "Unknown",
+      "status": "Active"
+    },
+    {
+      "id": 2,
+      "name": "hello",
+      "type": "Business",
+      "monthly_revenue": 4330,
+      "contact_person": "Unknown",
+      "status": "Active",
+      "contract_start": "2025-09-12T18:41:41.294Z",
+      "contract_details": {
+        "hourlyRate": 25,
+        "hoursPerWeek": 40,
+        "calculationBreakdown": "Standard 40hr/week calculation",
+        "originalDescription": "hello",
+        "weeklyRevenue": 1000,
+        "totalWeeklyHours": 40
+      }
+    }
+  ],
+  "sites": [],
+  "platformModules": [],
+  "lastUpdated": "2025-09-12T20:07:45.630Z"
+}

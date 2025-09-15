@@ -1,0 +1,243 @@
+{
+  "companyInfo": {
+    "id": "markham_investigation",
+    "name": "Markham Investigation & Protection",
+    "industry": "security",
+    "founded": "2025-08-19T15:32:42.641Z",
+    "settings": {}
+  },
+  "employees": [
+    {
+      "id": 1,
+      "name": "John Smith",
+      "role": "Security Guard",
+      "status": "Active",
+      "site": "Mall Entrance",
+      "hourlyRate": 18.5
+    },
+    {
+      "id": 2,
+      "name": "Sarah Wilson",
+      "role": "Security Guard",
+      "status": "Active",
+      "site": "Downtown District",
+      "hourlyRate": 19
+    },
+    {
+      "id": 3,
+      "name": "Mike Johnson",
+      "role": "Supervisor",
+      "status": "Active",
+      "site": "Control Center",
+      "hourlyRate": 25
+    },
+    {
+      "id": 4,
+      "name": "Lisa Chen",
+      "role": "Security Guard",
+      "status": "On Leave",
+      "site": "Hospital Campus",
+      "hourlyRate": 18.5
+    },
+    {
+      "id": 5,
+      "name": "David Brown",
+      "role": "Mobile Patrol",
+      "status": "Active",
+      "site": "Multiple Locations",
+      "hourlyRate": 20
+    },
+    {
+      "id": 6,
+      "name": "Marcus Johnson",
+      "role": "Security Guard",
+      "status": "Active",
+      "site": "Unassigned",
+      "hourlyRate": 18.5,
+      "dateHired": "2025-08-19T15:38:01.937Z"
+    },
+    {
+      "id": 7,
+      "name": "Mike Davis",
+      "role": "Security Guard",
+      "status": "Active",
+      "site": "Unassigned",
+      "hourlyRate": 18.5,
+      "dateHired": "2025-08-19T20:54:26.044Z"
+    },
+    {
+      "id": 8,
+      "name": "Mike Davis",
+      "role": "Security Guard",
+      "status": "Active",
+      "site": "Unassigned",
+      "hourlyRate": 18.5,
+      "dateHired": "2025-08-19T20:55:08.308Z"
+    },
+    {
+      "id": 9,
+      "name": "Mikie Markham",
+      "role": "Guard",
+      "status": "Active",
+      "site": "Markham Investigation & Protection",
+      "hourlyRate": 25,
+      "dateHired": "2025-08-20T14:57:20.461Z",
+      "statusHistory": [
+        {
+          "timestamp": "2025-08-20T14:57:20.461Z",
+          "previousStatus": null,
+          "newStatus": "Active",
+          "reason": "Initial hire",
+          "notes": "New employee added to system",
+          "changedBy": "tristen",
+          "changeId": 1755701840461
+        }
+      ],
+      "eligibleForRehire": true,
+      "lastStatusChange": "2025-08-20T14:57:20.461Z"
+    },
+    {
+      "id": 10,
+      "name": "Michael Lynne",
+      "role": "Driver",
+      "status": "Active",
+      "site": "Patrol 253",
+      "hourlyRate": 32,
+      "phone": null,
+      "schedule": null,
+      "dateHired": "2025-08-20T17:11:01.027Z",
+      "statusHistory": [
+        {
+          "timestamp": "2025-08-20T17:11:01.027Z",
+          "previousStatus": null,
+          "newStatus": "Active",
+          "reason": "Initial hire",
+          "notes": "New employee added to system",
+          "changedBy": "tristen",
+          "changeId": 1755709861027
+        }
+      ],
+      "eligibleForRehire": true,
+      "lastStatusChange": "2025-08-20T17:11:01.027Z"
+    },
+    {
+      "id": 11,
+      "name": "Henry Markham",
+      "role": "Protective Agent",
+      "status": "Active",
+      "site": "Unassigned",
+      "hourlyRate": 25,
+      "phone": null,
+      "schedule": null,
+      "dateHired": "2025-08-20T20:41:54.892Z",
+      "statusHistory": [
+        {
+          "timestamp": "2025-08-20T20:41:54.892Z",
+          "previousStatus": null,
+          "newStatus": "Active",
+          "reason": "Initial hire",
+          "notes": "New employee added to system",
+          "changedBy": "tristen",
+          "changeId": 1755722514892
+        }
+      ],
+      "eligibleForRehire": true,
+      "lastStatusChange": "2025-08-20T20:41:54.892Z"
+    }
+  ],
+  "clients": [
+    {
+      "id": 1,
+      "name": "McDonald's Downtown",
+      "type": "Restaurant",
+      "monthly_revenue": 15000,
+      "contract_start": "2024-01-01",
+      "contact_person": "Jim Manager"
+    },
+    {
+      "id": 2,
+      "name": "Valley Mall",
+      "type": "Retail",
+      "monthly_revenue": 28000,
+      "contract_start": "2024-02-15",
+      "contact_person": "Sarah Director"
+    },
+    {
+      "id": 3,
+      "name": "General Hospital",
+      "type": "Healthcare",
+      "monthly_revenue": 22000,
+      "contract_start": "2024-03-01",
+      "contact_person": "Dr. Johnson"
+    },
+    {
+      "id": 7,
+      "name": "ABC Corp",
+      "type": "Business",
+      "monthly_revenue": 5196,
+      "contract_start": "2025-08-20T15:59:34.389Z",
+      "contact_person": "Unknown",
+      "status": "Active",
+      "hourlyRate": 30,
+      "contractDescription": "5 days a week, 8-hour shifts",
+      "contract_details": {
+        "weeklyHours": 40,
+        "weeklyRevenue": 1200,
+        "calculationBreakdown": {
+          "weekdays": "5 weekdays × 8 hours = 40 hours",
+          "weekends": "0 weekend days × 0 hours = 0 hours",
+          "total": "Total: 40 hours/week",
+          "revenue": "40 hours × $30/hr = $1,200/week",
+          "monthly": "$1,200/week × 4.33 weeks = $5,196/month"
+        }
+      }
+    }
+  ],
+  "sites": [
+    {
+      "id": 1,
+      "name": "Mall Entrance",
+      "address": "Valley Mall, Main St",
+      "client_id": 2,
+      "guards_needed": 2,
+      "current_guards": 2
+    },
+    {
+      "id": 2,
+      "name": "Downtown District",
+      "address": "123 Business Ave",
+      "client_id": 1,
+      "guards_needed": 1,
+      "current_guards": 1
+    },
+    {
+      "id": 3,
+      "name": "Hospital Campus",
+      "address": "General Hospital, Medical Dr",
+      "client_id": 3,
+      "guards_needed": 3,
+      "current_guards": 2
+    }
+  ],
+  "platformModules": [
+    {
+      "id": "1755720398495",
+      "name": "Sites",
+      "description": "Module for managing sites",
+      "features": [],
+      "created": "2025-08-20T20:06:38.495Z",
+      "createdBy": "tristen",
+      "type": "ai_generated"
+    },
+    {
+      "id": "1755722460461",
+      "name": "Semi-Monthly Pay",
+      "description": "Module for managing semi-monthly payroll",
+      "features": [],
+      "created": "2025-08-20T20:41:00.461Z",
+      "createdBy": "tristen",
+      "type": "ai_generated"
+    }
+  ],
+  "lastUpdated": "2025-08-20T20:42:01.243Z"
+}

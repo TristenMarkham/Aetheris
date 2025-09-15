@@ -1,0 +1,21 @@
+{
+  "companyId": "Markham Investigation & Protection",
+  "backupType": "single_module",
+  "description": "Backup of module: Employee Sched",
+  "timestamp": "2025-08-25T19:45:10.205Z",
+  "createdBy": "tristen",
+  "data": {
+    "id": "1755882872445",
+    "name": "Employee Sched",
+    "description": "Employee scheduling system with features like shift creation, employee assignment, shift updates, and reminders.",
+    "features": [
+      "Shift Creation",
+      "Employee Assignment",
+      "Shift Updates",
+      "Reminders"
+    ],
+    "created": "2025-08-22T17:14:32.445Z",
+    "createdBy": "tristen",
+    "type": "ai_generated"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "universal-business-management-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "react": "17.0.1",
+    "react-native": "0.64.2",
+    "react-navigation": "^4.4.4",
+    "react-native-camera": "^3.44.3",
+    "react-native-image-picker": "^3.5.1",
+    "react-native-geolocation-service": "^5.3.0-beta.2",
+    "react-native-push-notification": "^8.1.1",
+    "react-native-offline": "^5.7.0",
+    "axios": "^0.21.1",
+    "react-native-barcode-scanner-google": "^1.2.0",
+    "react-native-pdf": "^6.3.0",
+    "formik": "^2.2.9",
+    "yup": "^0.32.9"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/runtime": "^7.14.6",
+    "babel-jest": "^27.0.6",
+    "jest": "^27.0.6",
+    "metro-react-native-babel-preset": "^0.66.2",
+    "react-test-renderer": "17.0.1",
+    "eslint": "^7.31.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

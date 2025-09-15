@@ -1,0 +1,274 @@
+{
+  "companyInfo": {
+    "id": "Markham Investigation & Protection",
+    "name": "Markham Investigation & Protection",
+    "industry": "general",
+    "founded": "2025-08-20T22:52:28.378Z",
+    "settings": {}
+  },
+  "employees": [
+    {
+      "id": 3,
+      "name": "Ashvinder Chopra",
+      "role": "Director of Operations",
+      "status": "Active",
+      "site": "Unassigned",
+      "hourlyRate": 34,
+      "phone": null,
+      "schedule": null,
+      "dateHired": "2025-08-22T17:33:07.251Z",
+      "statusHistory": [
+        {
+          "timestamp": "2025-08-22T17:33:07.251Z",
+          "previousStatus": null,
+          "newStatus": "Active",
+          "reason": "Initial hire",
+          "notes": "New employee added to system",
+          "changedBy": "tristen",
+          "changeId": 1755883987251
+        }
+      ],
+      "eligibleForRehire": true,
+      "lastStatusChange": "2025-08-22T17:33:07.251Z"
+    },
+    {
+      "id": 4,
+      "name": "Sunny Smith",
+      "role": "Armed Guard",
+      "status": "Active",
+      "site": "Unassigned",
+      "hourlyRate": 28,
+      "phone": null,
+      "schedule": null,
+      "dateHired": "2025-08-22T18:13:51.715Z",
+      "statusHistory": [
+        {
+          "timestamp": "2025-08-22T18:13:51.715Z",
+          "previousStatus": null,
+          "newStatus": "Active",
+          "reason": "Initial hire",
+          "notes": "New employee added to system",
+          "changedBy": "tristen",
+          "changeId": 1755886431715
+        }
+      ],
+      "eligibleForRehire": true,
+      "lastStatusChange": "2025-08-22T18:13:51.715Z"
+    },
+    {
+      "id": 6,
+      "name": "Chris Ashkraft",
+      "role": "Guard",
+      "status": "Active",
+      "site": "Unassigned",
+      "hourlyRate": 23,
+      "phone": null,
+      "schedule": null,
+      "dateHired": "2025-08-23T21:32:12.134Z",
+      "statusHistory": [
+        {
+          "timestamp": "2025-08-23T21:32:12.134Z",
+          "previousStatus": null,
+          "newStatus": "Active",
+          "reason": "Initial hire",
+          "notes": "New employee added to system",
+          "changedBy": "tristen",
+          "changeId": 1755984732134
+        }
+      ],
+      "eligibleForRehire": true,
+      "lastStatusChange": "2025-08-23T21:32:12.134Z"
+    },
+    {
+      "id": 7,
+      "name": "Jane Doe",
+      "role": "Guard",
+      "status": "Active",
+      "site": "Unassigned",
+      "hourlyRate": 28,
+      "phone": null,
+      "schedule": null,
+      "dateHired": "2025-08-25T17:53:45.104Z",
+      "statusHistory": [
+        {
+          "timestamp": "2025-08-25T17:53:45.104Z",
+          "previousStatus": null,
+          "newStatus": "Active",
+          "reason": "Initial hire",
+          "notes": "New employee added to system",
+          "changedBy": "tristen",
+          "changeId": 1756144425104
+        }
+      ],
+      "eligibleForRehire": true,
+      "lastStatusChange": "2025-08-25T17:53:45.104Z"
+    },
+    {
+      "id": 8,
+      "name": "William Markham",
+      "role": "Guard",
+      "status": "On Leave",
+      "site": "Real Rail Inc",
+      "hourlyRate": 23,
+      "phone": null,
+      "schedule": null,
+      "dateHired": "2025-09-12T20:57:40.897Z",
+      "statusHistory": [
+        {
+          "timestamp": "2025-09-12T20:57:40.897Z",
+          "previousStatus": null,
+          "newStatus": "Active",
+          "reason": "Initial hire",
+          "notes": "New employee added to system",
+          "changedBy": "system",
+          "changeId": 1757710660897
+        },
+        {
+          "timestamp": "2025-09-13T23:06:37.337Z",
+          "previousStatus": "Active",
+          "newStatus": "On Leave",
+          "reason": "Starting 9/12",
+          "notes": "Pending approval",
+          "changedBy": "tristen",
+          "changeId": 1757804797337
+        },
+        {
+          "timestamp": "2025-09-13T23:15:36.657Z",
+          "previousStatus": "On Leave",
+          "newStatus": "Active",
+          "reason": "Return from leave",
+          "notes": "Doctor's appointment canceled",
+          "changedBy": "tristen",
+          "changeId": 1757805336657
+        },
+        {
+          "timestamp": "2025-09-13T23:16:02.937Z",
+          "previousStatus": "Active",
+          "newStatus": "On Leave",
+          "reason": "Scheduled leave",
+          "notes": "Weekend staffing adjustment",
+          "changedBy": "tristen",
+          "changeId": 1757805362937
+        },
+        {
+          "timestamp": "2025-09-13T23:24:07.228Z",
+          "previousStatus": "On Leave",
+          "newStatus": "Active",
+          "reason": "End of scheduled leave",
+          "notes": "Weekend staffing adjustment",
+          "changedBy": "tristen",
+          "changeId": 1757805847228
+        },
+        {
+          "timestamp": "2025-09-13T23:27:58.457Z",
+          "previousStatus": "Active",
+          "newStatus": "On Leave",
+          "reason": "Weekend staffing adjustment",
+          "notes": "",
+          "changedBy": "tristen",
+          "changeId": 1757806078457
+        }
+      ],
+      "eligibleForRehire": true,
+      "lastStatusChange": "2025-09-13T23:27:58.457Z"
+    },
+    {
+      "id": 9,
+      "name": "Mikie Markham",
+      "role": "Guard",
+      "status": "Active",
+      "site": "Patrol Route 1",
+      "hourlyRate": 30,
+      "phone": null,
+      "schedule": null,
+      "dateHired": "2025-09-13T22:57:42.082Z",
+      "statusHistory": [
+        {
+          "timestamp": "2025-09-13T22:57:42.082Z",
+          "previousStatus": null,
+          "newStatus": "Active",
+          "reason": "Initial hire",
+          "notes": "New employee added to system",
+          "changedBy": "system",
+          "changeId": 1757804262082
+        }
+      ],
+      "eligibleForRehire": true,
+      "lastStatusChange": "2025-09-13T22:57:42.082Z"
+    }
+  ],
+  "clients": [
+    {
+      "id": 2,
+      "name": "Client B",
+      "type": "Standard",
+      "monthly_revenue": 9743,
+      "contract_start": "2025-08-21T18:36:55.502Z",
+      "contact_person": "Emily Johnson",
+      "status": "Active",
+      "contractDescription": "Security services for commercial property",
+      "hourlyRate": 25,
+      "contract_details": {
+        "weeklyHours": 50,
+        "weeklyRevenue": 2250,
+        "calculationBreakdown": {
+          "weekdays": "5 weekdays × 8 hours = 40 hours",
+          "weekends": "2 weekend days × 10 hours = 20 hours",
+          "total": "Total: 50 hours/week",
+          "revenue": "50 hours × $25/hr = $1,250/week",
+          "monthly": "$1,250/week × 4.33 weeks = $5,413/month"
+        },
+        "hourlyRate": 45
+      },
+      "billingRate": 45
+    },
+    {
+      "id": 3,
+      "name": "Real Rail Inc",
+      "type": "Business",
+      "monthly_revenue": 13406,
+      "contract_start": "2025-09-12T20:58:54.524Z",
+      "contact_person": "Unknown",
+      "status": "Active",
+      "hourlyRate": 43,
+      "contractDescription": "9 shifts of 12 hours per week",
+      "contract_details": {
+        "weeklyHours": 72,
+        "weeklyRevenue": 3096,
+        "calculationBreakdown": {
+          "weekdays": "5 weekdays × 12 hours = 60 hours",
+          "weekends": "2 weekend days × 12 hours = 24 hours",
+          "total": "Total: 72 hours/week",
+          "revenue": "72 hours × $43/hr = $3,096/week",
+          "monthly": "$3,096/week × 4.33 weeks = $13,406/month"
+        },
+        "hourlyRate": 43
+      },
+      "billingRate": 43
+    }
+  ],
+  "sites": [],
+  "platformModules": [
+    {
+      "id": "1757961931400",
+      "name": "Advanced Scheduling System",
+      "description": "Complete scheduling solution with calendar views, shift management, employee availability tracking, and automated notifications",
+      "features": [
+        "Calendar interface with month/week/day views",
+        "Drag-and-drop shift assignment",
+        "Employee availability management",
+        "Automated shift notifications",
+        "Conflict detection and resolution",
+        "Recurring schedule templates",
+        "Time-off request management",
+        "Coverage gap alerts",
+        "Mobile schedule access",
+        "Integration with payroll system"
+      ],
+      "created": "2025-09-15T18:45:31.400Z",
+      "createdBy": "tristen",
+      "type": "ai_generated"
+    }
+  ],
+  "lastUpdated": "2025-09-15T18:45:31.403Z"
+}

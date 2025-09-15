@@ -1,0 +1,20 @@
+{
+  "companyId": "Markham Investigation & Protection",
+  "backupType": "single_module",
+  "description": "Backup of module: undefined",
+  "timestamp": "2025-08-22T18:30:25.181Z",
+  "createdBy": "tristen",
+  "data": {
+    "id": "1755886646896",
+    "description": "Module for scope of work templates with various types such as patrol, unarmed, armed, and EP work. The module will include predefined templates for each type to streamline the process for our guards and employees.",
+    "features": [
+      "Patrol",
+      "Unarmed",
+      "Armed",
+      "EP Work"
+    ],
+    "created": "2025-08-22T18:17:26.896Z",
+    "createdBy": "tristen",
+    "type": "ai_generated"
+  }
+}

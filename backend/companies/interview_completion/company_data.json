@@ -1,0 +1,120 @@
+{
+  "companyInfo": {
+    "id": "interview_completion",
+    "name": "Your Company",
+    "industry": "security",
+    "founded": "2025-08-19T20:16:15.622Z",
+    "settings": {}
+  },
+  "employees": [
+    {
+      "id": 1,
+      "name": "John Smith",
+      "role": "Security Guard",
+      "status": "Active",
+      "site": "Mall Entrance",
+      "hourlyRate": 18.5
+    },
+    {
+      "id": 2,
+      "name": "Sarah Wilson",
+      "role": "Security Guard",
+      "status": "Active",
+      "site": "Downtown District",
+      "hourlyRate": 19
+    },
+    {
+      "id": 3,
+      "name": "Mike Johnson",
+      "role": "Supervisor",
+      "status": "Active",
+      "site": "Control Center",
+      "hourlyRate": 25
+    },
+    {
+      "id": 4,
+      "name": "Lisa Chen",
+      "role": "Security Guard",
+      "status": "On Leave",
+      "site": "Hospital Campus",
+      "hourlyRate": 18.5
+    },
+    {
+      "id": 5,
+      "name": "David Brown",
+      "role": "Mobile Patrol",
+      "status": "Active",
+      "site": "Multiple Locations",
+      "hourlyRate": 20
+    }
+  ],
+  "clients": [
+    {
+      "id": 1,
+      "name": "McDonald's Downtown",
+      "type": "Restaurant",
+      "monthly_revenue": 15000,
+      "contract_start": "2024-01-01",
+      "contact_person": "Jim Manager"
+    },
+    {
+      "id": 2,
+      "name": "Valley Mall",
+      "type": "Retail",
+      "monthly_revenue": 28000,
+      "contract_start": "2024-02-15",
+      "contact_person": "Sarah Director"
+    },
+    {
+      "id": 3,
+      "name": "General Hospital",
+      "type": "Healthcare",
+      "monthly_revenue": 22000,
+      "contract_start": "2024-03-01",
+      "contact_person": "Dr. Johnson"
+    }
+  ],
+  "sites": [
+    {
+      "id": 1,
+      "name": "Mall Entrance",
+      "address": "Valley Mall, Main St",
+      "client_id": 2,
+      "guards_needed": 2,
+      "current_guards": 2
+    },
+    {
+      "id": 2,
+      "name": "Downtown District",
+      "address": "123 Business Ave",
+      "client_id": 1,
+      "guards_needed": 1,
+      "current_guards": 1
+    },
+    {
+      "id": 3,
+      "name": "Hospital Campus",
+      "address": "General Hospital, Medical Dr",
+      "client_id": 3,
+      "guards_needed": 3,
+      "current_guards": 2
+    }
+  ],
+  "platformModules": [
+    {
+      "id": "1755634578754",
+      "name": "Scheduling and Workforce Management",
+      "description": "Module to efficiently schedule guards, manage shifts, and optimize workforce utilization for the murder industry.",
+      "features": [
+        "Shift scheduling",
+        "Workforce optimization",
+        "Time tracking",
+        "Attendance management"
+      ],
+      "created": "2025-08-19T20:16:18.754Z",
+      "createdBy": "system",
+      "type": "ai_generated"
+    }
+  ],
+  "lastUpdated": "2025-08-19T20:16:18.754Z"
+}

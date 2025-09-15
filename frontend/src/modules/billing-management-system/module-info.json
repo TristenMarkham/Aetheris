@@ -1,0 +1,12 @@
+{
+  "id": "billing-management-system",
+  "name": "Billing Management System",
+  "description": "This module will streamline the billing process for the security company. It will automatically generate invoices based on the services provided, track payments received, send reminders for late payments, and provide financial reports for easy monitoring of the company's revenue.",
+  "features": [
+    "Invoice generation",
+    "Payment tracking",
+    "Late payment reminders",
+    "Financial reporting"
+  ],
+  "created": "2025-08-15T00:52:43.568Z"
+}

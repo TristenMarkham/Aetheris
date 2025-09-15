@@ -1,0 +1,77 @@
+{
+  "name": "Tristen",
+  "location": "Seattle, WA",
+  "industry": "security",
+  "platformModules": [],
+  "chatHistory": [
+    {
+      "role": "user",
+      "content": "hello",
+      "timestamp": "2025-08-19T20:34:24.539Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Hello, Tristen. How can I assist you with the MIPFullSystem project today?",
+      "timestamp": "2025-08-19T20:34:26.256Z"
+    },
+    {
+      "role": "user",
+      "content": "what is my moms name?",
+      "timestamp": "2025-08-19T20:34:34.109Z"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm sorry, Tristen, but as an AI development assistant, I don't have access to personal data about individuals unless it has been provided in the context of our development work. My primary function is to assist with your software development tasks. Let's focus on how I can help you with your MIPFullSystem project. Is there a specific feature or issue you'd like to work on?",
+      "timestamp": "2025-08-19T20:34:36.323Z"
+    },
+    {
+      "role": "user",
+      "content": "how is the weather?",
+      "timestamp": "2025-08-19T20:34:48.222Z"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "timestamp": "2025-08-19T20:34:49.405Z"
+    }
+  ],
+  "businessData": {
+    "employees": [
+      {
+        "id": 1,
+        "name": "John Smith",
+        "role": "Security Guard",
+        "status": "Active",
+        "site": "Mall Entrance"
+      },
+      {
+        "id": 2,
+        "name": "Sarah Wilson",
+        "role": "Security Guard",
+        "status": "Active",
+        "site": "Downtown District"
+      },
+      {
+        "id": 3,
+        "name": "Mike Johnson",
+        "role": "Supervisor",
+        "status": "Active",
+        "site": "Control Center"
+      }
+    ],
+    "clients": [
+      {
+        "id": 1,
+        "name": "McDonald's Downtown",
+        "type": "Restaurant",
+        "monthly_revenue": 15000
+      },
+      {
+        "id": 2,
+        "name": "Valley Mall",
+        "type": "Retail",
+        "monthly_revenue": 28000
+      }
+    ]
+  }
+}

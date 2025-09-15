@@ -1,0 +1,33 @@
+{
+  "companyId": "Markham Investigation & Protection",
+  "backupType": "multiple_clients",
+  "description": "Deleted 1 clients matching: Client A",
+  "timestamp": "2025-08-22T22:14:11.319Z",
+  "createdBy": "tristen",
+  "data": [
+    {
+      "id": 1,
+      "name": "Client A",
+      "type": "Standard",
+      "monthly_revenue": 11258,
+      "contract_start": "2025-08-21T18:36:15.570Z",
+      "contact_person": "John Smith",
+      "status": "Active",
+      "contractDescription": "Security services for office building",
+      "hourlyRate": 30,
+      "contract_details": {
+        "weeklyHours": 50,
+        "weeklyRevenue": 2600,
+        "calculationBreakdown": {
+          "weekdays": "5 weekdays × 8 hours = 40 hours",
+          "weekends": "2 weekend days × 10 hours = 20 hours",
+          "total": "Total: 50 hours/week",
+          "revenue": "50 hours × $30/hr = $1,500/week",
+          "monthly": "$1,500/week × 4.33 weeks = $6,495/month"
+        },
+        "hourlyRate": 52
+      },
+      "billingRate": 52
+    }
+  ]
+}

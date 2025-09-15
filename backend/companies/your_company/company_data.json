@@ -1,0 +1,34 @@
+{
+  "companyInfo": {
+    "id": "your_company",
+    "name": "Your Company",
+    "industry": "business",
+    "founded": "2025-08-20T20:48:42.206Z",
+    "settings": {
+      "defaultEmployeeRate": 18.5,
+      "defaultClientType": "Business",
+      "timezone": "America/Los_Angeles"
+    }
+  },
+  "employees": [],
+  "clients": [],
+  "sites": [],
+  "platformModules": [],
+  "lastUpdated": "2025-08-20T20:48:42.207Z",
+  "templates": {
+    "employee": {
+      "defaultRole": "Security Guard",
+      "defaultRate": 18.5,
+      "defaultStatus": "Active",
+      "defaultSite": "Unassigned"
+    },
+    "client": {
+      "defaultType": "Business",
+      "defaultRevenue": 0
+    },
+    "confirmation": {
+      "addEmployee": "👤 **New Employee Confirmation**\n\n**Name:** {employee.name}\n**Role:** {employee.role}\n**Site:** {employee.site}\n**Rate:** ${employee.hourlyRate}/hour",
+      "addClient": "🏢 **New Client Confirmation**\n\n**Client:** {client.name}\n**Revenue:** ${client.monthly_revenue}/month\n**Type:** {client.type}"
+    }
+  }
+}

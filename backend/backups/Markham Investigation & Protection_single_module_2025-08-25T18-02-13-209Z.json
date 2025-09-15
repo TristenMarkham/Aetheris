@@ -1,0 +1,20 @@
+{
+  "companyId": "Markham Investigation & Protection",
+  "backupType": "single_module",
+  "description": "Backup of module: Fence Module",
+  "timestamp": "2025-08-25T18:02:13.209Z",
+  "createdBy": "tristen",
+  "data": {
+    "id": "1755886686960",
+    "name": "Fence Module",
+    "description": "Module for managing information related to fencing, including installation details, maintenance schedules, and security enhancements.",
+    "features": [
+      "Installation Details",
+      "Maintenance Schedules",
+      "Security Enhancements"
+    ],
+    "created": "2025-08-22T18:18:06.960Z",
+    "createdBy": "tristen",
+    "type": "ai_generated"
+  }
+}

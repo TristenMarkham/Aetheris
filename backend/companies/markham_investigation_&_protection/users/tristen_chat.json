@@ -1,0 +1,174 @@
+{
+  "userId": "tristen",
+  "companyId": "markham_investigation_&_protection",
+  "chatHistory": [
+    {
+      "role": "user",
+      "content": "hello",
+      "timestamp": "2025-08-20T21:46:42.652Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Good day! How can I assist you today?",
+      "timestamp": "2025-08-20T21:46:43.780Z"
+    },
+    {
+      "role": "user",
+      "content": "how is the weather in anna Il",
+      "timestamp": "2025-08-20T21:46:52.560Z"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "id": "call_bZiLuPkmJVAV4CybiDwmxMDL",
+          "type": "function",
+          "function": {
+            "name": "get_weather",
+            "arguments": "{\"location\":\"Anna, IL\"}"
+          }
+        }
+      ],
+      "timestamp": "2025-08-20T21:46:54.186Z"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_bZiLuPkmJVAV4CybiDwmxMDL",
+      "content": "{\"success\":false,\"error\":\"Weather parsing failed\"}",
+      "timestamp": "2025-08-20T21:46:54.186Z"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm sorry, but there was an issue with retrieving the weather information for Anna, IL. The weather parsing failed. Would you like me to try again or assist you with something else?",
+      "timestamp": "2025-08-20T21:46:54.936Z"
+    },
+    {
+      "role": "user",
+      "content": "what about st louis mo?",
+      "timestamp": "2025-08-20T21:47:08.402Z"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "id": "call_489aEZojdgiTETks4hEKp51N",
+          "type": "function",
+          "function": {
+            "name": "get_weather",
+            "arguments": "{\"location\":\"St. Louis, MO\"}"
+          }
+        }
+      ],
+      "timestamp": "2025-08-20T21:47:09.850Z"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_489aEZojdgiTETks4hEKp51N",
+      "content": "{\"success\":true,\"location\":\"Saint Louis, Missouri\",\"temperature\":85,\"condition\":\"Partly cloudy\",\"humidity\":\"55\",\"windSpeed\":\"9 mph\",\"feelsLike\":86,\"businessImpact\":\"Favorable conditions for all security operations\"}",
+      "timestamp": "2025-08-20T21:47:09.850Z"
+    },
+    {
+      "role": "assistant",
+      "content": "✅ The current weather in Saint Louis, Missouri is 85°F with partly cloudy skies. The conditions are favorable for all security operations.",
+      "timestamp": "2025-08-20T21:47:10.411Z"
+    },
+    {
+      "role": "user",
+      "content": "list my guards",
+      "timestamp": "2025-08-20T21:47:20.137Z"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "id": "call_EfTrwQT8Aj62ugu1Rccw4Eft",
+          "type": "function",
+          "function": {
+            "name": "get_business_data",
+            "arguments": "{\"query\":\"guards list\"}"
+          }
+        }
+      ],
+      "timestamp": "2025-08-20T21:47:20.941Z"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_EfTrwQT8Aj62ugu1Rccw4Eft",
+      "content": "{\"success\":true,\"companyInfo\":{\"id\":\"markham_investigation_&_protection\",\"name\":\"Markham Investigation_&_protection\",\"industry\":\"general\",\"founded\":\"2025-08-20T21:46:42.653Z\",\"settings\":{}},\"employees\":[],\"clients\":[],\"sites\":[],\"platformModules\":[],\"realTimeMetrics\":{\"monthlyRevenue\":0,\"activeGuards\":0,\"totalEmployees\":0,\"totalClients\":0,\"totalSites\":0,\"totalModules\":0,\"guardsOnLeave\":0,\"inactiveEmployees\":0,\"suspendedEmployees\":0,\"averageHourlyRate\":0,\"lastUpdated\":\"2025-08-20T21:46:42.655Z\"},\"dashboardData\":{\"monthlyRevenue\":0,\"formattedRevenue\":\"$0\",\"activeGuards\":0,\"totalClients\":0,\"totalSites\":0,\"totalModules\":0,\"guardsOnLeave\":0,\"averageHourlyRate\":\"0.00\",\"lastUpdated\":\"2025-08-20T21:46:42.655Z\",\"dashboardDisplays\":{\"Monthly Revenue\":\"$0\",\"Active Guards\":\"0\",\"Client Sites\":\"0\",\"Total Clients\":\"0\"}},\"dashboardValues\":{\"Monthly Revenue\":\"$0\",\"Active Guards\":\"0\",\"Client Sites\":\"0\",\"Total Clients\":\"0\"},\"activeGuardsList\":[],\"guardsOnLeaveList\":[],\"driversList\":[],\"clientsList\":[],\"contractsList\":[],\"sitesList\":[],\"drivers\":[],\"staticGuards\":[],\"supervisors\":[],\"summary\":{\"businessOverview\":\"Markham Investigation_&_protection currently has 0 active guards serving 0 clients at 0 sites, generating $0 in monthly revenue.\",\"dashboardSummary\":\"Dashboard shows: $0 monthly revenue, 0 active guards, 0 clients, 0 sites.\",\"employeeSummary\":\"Employee breakdown: 0 active, 0 on leave, 0 inactive.\",\"activeGuards\":0,\"totalClients\":0,\"monthlyRevenue\":0,\"totalSites\":0,\"employeeDetails\":\"Active Guards: None. On Leave: None\",\"clientDetails\":\"Clients: None\",\"driversDetails\":\"Drivers: None\",\"driversCount\":0},\"query\":\"guards list\",\"timestamp\":\"2025-08-20T21:47:20.941Z\"}",
+      "timestamp": "2025-08-20T21:47:20.941Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Currently, there are no active guards listed in the system. If you'd like to add guards or have any other requests, feel free to let me know!",
+      "timestamp": "2025-08-20T21:47:21.481Z"
+    },
+    {
+      "role": "user",
+      "content": "list my clients",
+      "timestamp": "2025-08-20T21:47:41.858Z"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "id": "call_RhTdsMS6kPKvZpuIs3v5aiAY",
+          "type": "function",
+          "function": {
+            "name": "get_business_data",
+            "arguments": "{\"query\":\"clients list\"}"
+          }
+        }
+      ],
+      "timestamp": "2025-08-20T21:47:42.877Z"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_RhTdsMS6kPKvZpuIs3v5aiAY",
+      "content": "{\"success\":true,\"companyInfo\":{\"id\":\"markham_investigation_&_protection\",\"name\":\"Markham Investigation_&_protection\",\"industry\":\"general\",\"founded\":\"2025-08-20T21:46:42.653Z\",\"settings\":{}},\"employees\":[],\"clients\":[],\"sites\":[],\"platformModules\":[],\"realTimeMetrics\":{\"monthlyRevenue\":0,\"activeGuards\":0,\"totalEmployees\":0,\"totalClients\":0,\"totalSites\":0,\"totalModules\":0,\"guardsOnLeave\":0,\"inactiveEmployees\":0,\"suspendedEmployees\":0,\"averageHourlyRate\":0,\"lastUpdated\":\"2025-08-20T21:46:42.655Z\"},\"dashboardData\":{\"monthlyRevenue\":0,\"formattedRevenue\":\"$0\",\"activeGuards\":0,\"totalClients\":0,\"totalSites\":0,\"totalModules\":0,\"guardsOnLeave\":0,\"averageHourlyRate\":\"0.00\",\"lastUpdated\":\"2025-08-20T21:46:42.655Z\",\"dashboardDisplays\":{\"Monthly Revenue\":\"$0\",\"Active Guards\":\"0\",\"Client Sites\":\"0\",\"Total Clients\":\"0\"}},\"dashboardValues\":{\"Monthly Revenue\":\"$0\",\"Active Guards\":\"0\",\"Client Sites\":\"0\",\"Total Clients\":\"0\"},\"activeGuardsList\":[],\"guardsOnLeaveList\":[],\"driversList\":[],\"clientsList\":[],\"contractsList\":[],\"sitesList\":[],\"drivers\":[],\"staticGuards\":[],\"supervisors\":[],\"summary\":{\"businessOverview\":\"Markham Investigation_&_protection currently has 0 active guards serving 0 clients at 0 sites, generating $0 in monthly revenue.\",\"dashboardSummary\":\"Dashboard shows: $0 monthly revenue, 0 active guards, 0 clients, 0 sites.\",\"employeeSummary\":\"Employee breakdown: 0 active, 0 on leave, 0 inactive.\",\"activeGuards\":0,\"totalClients\":0,\"monthlyRevenue\":0,\"totalSites\":0,\"employeeDetails\":\"Active Guards: None. On Leave: None\",\"clientDetails\":\"Clients: None\",\"driversDetails\":\"Drivers: None\",\"driversCount\":0},\"query\":\"clients list\",\"timestamp\":\"2025-08-20T21:47:42.877Z\"}",
+      "timestamp": "2025-08-20T21:47:42.877Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Your clients are: None",
+      "timestamp": "2025-08-20T21:47:43.194Z"
+    },
+    {
+      "role": "user",
+      "content": "list my guards",
+      "timestamp": "2025-08-20T21:47:49.010Z"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "id": "call_jI003zp6NoZEWd56JseHoJyL",
+          "type": "function",
+          "function": {
+            "name": "get_business_data",
+            "arguments": "{\"query\":\"guards list\"}"
+          }
+        }
+      ],
+      "timestamp": "2025-08-20T21:47:50.040Z"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_jI003zp6NoZEWd56JseHoJyL",
+      "content": "{\"success\":true,\"companyInfo\":{\"id\":\"markham_investigation_&_protection\",\"name\":\"Markham Investigation_&_protection\",\"industry\":\"general\",\"founded\":\"2025-08-20T21:46:42.653Z\",\"settings\":{}},\"employees\":[],\"clients\":[],\"sites\":[],\"platformModules\":[],\"realTimeMetrics\":{\"monthlyRevenue\":0,\"activeGuards\":0,\"totalEmployees\":0,\"totalClients\":0,\"totalSites\":0,\"totalModules\":0,\"guardsOnLeave\":0,\"inactiveEmployees\":0,\"suspendedEmployees\":0,\"averageHourlyRate\":0,\"lastUpdated\":\"2025-08-20T21:46:42.655Z\"},\"dashboardData\":{\"monthlyRevenue\":0,\"formattedRevenue\":\"$0\",\"activeGuards\":0,\"totalClients\":0,\"totalSites\":0,\"totalModules\":0,\"guardsOnLeave\":0,\"averageHourlyRate\":\"0.00\",\"lastUpdated\":\"2025-08-20T21:46:42.655Z\",\"dashboardDisplays\":{\"Monthly Revenue\":\"$0\",\"Active Guards\":\"0\",\"Client Sites\":\"0\",\"Total Clients\":\"0\"}},\"dashboardValues\":{\"Monthly Revenue\":\"$0\",\"Active Guards\":\"0\",\"Client Sites\":\"0\",\"Total Clients\":\"0\"},\"activeGuardsList\":[],\"guardsOnLeaveList\":[],\"driversList\":[],\"clientsList\":[],\"contractsList\":[],\"sitesList\":[],\"drivers\":[],\"staticGuards\":[],\"supervisors\":[],\"summary\":{\"businessOverview\":\"Markham Investigation_&_protection currently has 0 active guards serving 0 clients at 0 sites, generating $0 in monthly revenue.\",\"dashboardSummary\":\"Dashboard shows: $0 monthly revenue, 0 active guards, 0 clients, 0 sites.\",\"employeeSummary\":\"Employee breakdown: 0 active, 0 on leave, 0 inactive.\",\"activeGuards\":0,\"totalClients\":0,\"monthlyRevenue\":0,\"totalSites\":0,\"employeeDetails\":\"Active Guards: None. On Leave: None\",\"clientDetails\":\"Clients: None\",\"driversDetails\":\"Drivers: None\",\"driversCount\":0},\"query\":\"guards list\",\"timestamp\":\"2025-08-20T21:47:50.040Z\"}",
+      "timestamp": "2025-08-20T21:47:50.040Z"
+    },
+    {
+      "role": "assistant",
+      "content": "It looks like there are currently no active guards listed in the system. If you need to add guards or have any other requests, feel free to let me know!",
+      "timestamp": "2025-08-20T21:47:50.584Z"
+    }
+  ],
+  "personalInfo": {},
+  "preferences": {},
+  "lastActivity": "2025-08-20T21:47:50.585Z"
+}

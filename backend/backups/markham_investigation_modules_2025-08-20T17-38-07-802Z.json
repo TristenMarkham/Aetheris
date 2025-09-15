@@ -1,0 +1,27 @@
+{
+  "companyId": "markham_investigation",
+  "backupType": "modules",
+  "description": "Backup before deleting all 2 modules",
+  "timestamp": "2025-08-20T17:38:07.803Z",
+  "createdBy": "tristen",
+  "data": [
+    {
+      "id": "1755710771514",
+      "name": "EE Scheduling Module",
+      "description": "This module will allow you to manage and schedule employees efficiently.",
+      "features": [],
+      "created": "2025-08-20T17:26:11.514Z",
+      "createdBy": "tristen",
+      "type": "ai_generated"
+    },
+    {
+      "id": "1755711232002",
+      "name": "Security Operations",
+      "description": "Module for managing security operations including guard assignments, client information, and revenue tracking.",
+      "features": [],
+      "created": "2025-08-20T17:33:52.002Z",
+      "createdBy": "tristen",
+      "type": "ai_generated"
+    }
+  ]
+}

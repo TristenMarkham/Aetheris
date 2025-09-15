@@ -1,0 +1,16 @@
+{
+  "companyId": "Markham Investigation & Protection",
+  "backupType": "single_module",
+  "description": "Backup of module: Scheduling Module",
+  "timestamp": "2025-08-21T17:49:42.202Z",
+  "createdBy": "tristen",
+  "data": {
+    "id": "1755797766293",
+    "name": "Scheduling Module",
+    "description": "Manage and organize guard schedules efficiently with features like shift assignments, time tracking, and automated notifications for upcoming shifts.",
+    "features": [],
+    "created": "2025-08-21T17:36:06.293Z",
+    "createdBy": "tristen",
+    "type": "ai_generated"
+  }
+}

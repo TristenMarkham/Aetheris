@@ -1,0 +1,16 @@
+{
+  "companyId": "Markham Investigation & Protection",
+  "backupType": "single_module",
+  "description": "Backup of module: Vendor Management Mod",
+  "timestamp": "2025-08-21T18:25:59.053Z",
+  "createdBy": "tristen",
+  "data": {
+    "id": "1755800740005",
+    "name": "Vendor Management Mod",
+    "description": "A module to manage vendors, their information, contracts, and performance.",
+    "features": [],
+    "created": "2025-08-21T18:25:40.005Z",
+    "createdBy": "tristen",
+    "type": "ai_generated"
+  }
+}

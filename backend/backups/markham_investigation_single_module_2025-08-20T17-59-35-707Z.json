@@ -1,0 +1,16 @@
+{
+  "companyId": "markham_investigation",
+  "backupType": "single_module",
+  "description": "Backup of module: PNW Vendor Management",
+  "timestamp": "2025-08-20T17:59:35.707Z",
+  "createdBy": "tristen",
+  "data": {
+    "id": "1755711515051",
+    "name": "PNW Vendor Management",
+    "description": "Module for managing vendors in the Pacific Northwest region, tracking contracts, payments, and performance metrics.",
+    "features": [],
+    "created": "2025-08-20T17:38:35.051Z",
+    "createdBy": "tristen",
+    "type": "ai_generated"
+  }
+}

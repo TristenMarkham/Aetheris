@@ -1,0 +1,20 @@
+{
+  "companyId": "Markham Investigation & Protection",
+  "backupType": "single_module",
+  "description": "Backup of module: TrackTik Scheduling System",
+  "timestamp": "2025-08-21T19:52:47.291Z",
+  "createdBy": "tristen",
+  "data": {
+    "id": "1755805940548",
+    "name": "TrackTik Scheduling System",
+    "description": "A scheduling system with GPS tracking and patrol management features for efficient guard scheduling and monitoring.",
+    "features": [
+      "Guard scheduling",
+      "GPS tracking",
+      "Patrol management"
+    ],
+    "created": "2025-08-21T19:52:20.548Z",
+    "createdBy": "tristen",
+    "type": "ai_generated"
+  }
+}

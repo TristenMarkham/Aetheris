@@ -1,0 +1,35 @@
+{
+  "companyId": "Markham Investigation & Protection",
+  "backupType": "employee_record",
+  "description": "Legal compliance backup: John Doe - employee_deletion",
+  "timestamp": "2025-08-22T23:35:11.967Z",
+  "createdBy": "tristen",
+  "data": {
+    "id": 1,
+    "name": "John Doe",
+    "role": "Guard",
+    "status": "Active",
+    "site": "Unassigned",
+    "hourlyRate": 25,
+    "phone": null,
+    "schedule": null,
+    "dateHired": "2025-08-20T22:52:39.904Z",
+    "statusHistory": [
+      {
+        "timestamp": "2025-08-20T22:52:39.904Z",
+        "previousStatus": null,
+        "newStatus": "Active",
+        "reason": "Initial hire",
+        "notes": "New employee added to system",
+        "changedBy": "tristen",
+        "changeId": 1755730359904
+      }
+    ],
+    "eligibleForRehire": true,
+    "lastStatusChange": "2025-08-20T22:52:39.904Z",
+    "backupReason": "employee_deletion",
+    "backupDate": "2025-08-22T23:35:11.964Z",
+    "legalRetentionUntil": "2032-08-20T23:35:11.964Z",
+    "complianceNotes": "Employee record preserved for legal compliance - 7 year retention"
+  }
+}

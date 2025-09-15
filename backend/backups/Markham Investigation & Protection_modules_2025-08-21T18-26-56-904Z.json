@@ -1,0 +1,65 @@
+{
+  "companyId": "Markham Investigation & Protection",
+  "backupType": "modules",
+  "description": "Backup before deleting all 4 modules",
+  "timestamp": "2025-08-21T18:26:56.905Z",
+  "createdBy": "tristen",
+  "data": [
+    {
+      "id": "1755796747518",
+      "name": "Scheduling Module",
+      "description": "A module to manage and organize employee schedules efficiently.",
+      "features": [
+        "Assign shifts",
+        "View availability",
+        "Automatic notifications"
+      ],
+      "created": "2025-08-21T17:19:07.519Z",
+      "createdBy": "tristen",
+      "type": "ai_generated"
+    },
+    {
+      "id": "1755800107263",
+      "name": "Expense Module",
+      "description": "This module will allow tracking and management of company expenses including budgets, expenditures, and cost analysis.",
+      "features": [
+        "Budget Tracking",
+        "Expense Logging",
+        "Cost Analysis",
+        "Expense Reports"
+      ],
+      "created": "2025-08-21T18:15:07.263Z",
+      "createdBy": "tristen",
+      "type": "ai_generated"
+    },
+    {
+      "id": "1755800273694",
+      "name": "Fence Module",
+      "description": "This module will track and manage information related to the installation and maintenance of fences at client sites.",
+      "features": [
+        "Record fence installation details",
+        "Schedule fence maintenance tasks",
+        "Track fence repair history"
+      ],
+      "created": "2025-08-21T18:17:53.694Z",
+      "createdBy": "tristen",
+      "type": "ai_generated"
+    },
+    {
+      "id": "1755800502541",
+      "name": "MIP CRM Mod",
+      "description": "Customer Relationship Management (CRM) module with salesforce type capabilities for Markham Investigation & Protection.",
+      "features": [
+        "Lead Management",
+        "Opportunity Tracking",
+        "Contact Management",
+        "Sales Forecasting",
+        "Task Management",
+        "Email Integration"
+      ],
+      "created": "2025-08-21T18:21:42.541Z",
+      "createdBy": "tristen",
+      "type": "ai_generated"
+    }
+  ]
+}

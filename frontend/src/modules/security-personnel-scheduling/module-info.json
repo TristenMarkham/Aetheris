@@ -1,0 +1,14 @@
+{
+  "id": "security-personnel-scheduling",
+  "name": "Security Personnel Scheduling System",
+  "description": "This module handles the scheduling of security personnel for various shifts, ensuring that there are no conflicts and that all shifts are adequately covered. It tracks the availability of personnel and sends automated reminders for upcoming shifts. The module also integrates with payroll to facilitate shift-based payment and provides reporting and analytics for shift patterns and personnel utilization.",
+  "features": [
+    "Shift scheduling for security personnel",
+    "Availability tracking",
+    "Automated shift reminders",
+    "Conflict resolution for overlapping shifts",
+    "Integration with payroll for shift-based payment",
+    "Reporting and analytics for shift patterns and personnel utilization"
+  ],
+  "created": "2025-08-15T00:07:59.567Z"
+}

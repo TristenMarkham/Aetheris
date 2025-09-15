@@ -1,0 +1,40 @@
+{
+  "companyId": "markham_investigation",
+  "backupType": "modules",
+  "description": "Backup before deleting all 3 modules",
+  "timestamp": "2025-08-20T17:22:42.759Z",
+  "createdBy": "tristen",
+  "data": [
+    {
+      "id": "1755709569683",
+      "name": "EE sched",
+      "description": "A scheduling module for internal employees to manage shifts based on client sites.",
+      "features": [
+        "Ability to add and remove guards to shifts based on client sites"
+      ],
+      "created": "2025-08-20T17:06:09.683Z",
+      "createdBy": "tristen",
+      "type": "ai_generated"
+    },
+    {
+      "id": "1755709590083",
+      "name": "EE sched",
+      "description": "A scheduling module for internal employees to manage shifts based on client sites.",
+      "features": [
+        "Ability to add and remove guards to shifts based on client sites"
+      ],
+      "created": "2025-08-20T17:06:30.083Z",
+      "createdBy": "tristen",
+      "type": "ai_generated"
+    },
+    {
+      "id": "1755710552294",
+      "name": "Vendor Module",
+      "description": "Module for managing vendor information and transactions",
+      "features": [],
+      "created": "2025-08-20T17:22:32.294Z",
+      "createdBy": "tristen",
+      "type": "ai_generated"
+    }
+  ]
+}

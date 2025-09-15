@@ -1,0 +1,27 @@
+{
+  "companyId": "markham_investigation",
+  "backupType": "multiple_clients",
+  "description": "Deleted 2 clients matching: Real Rail Workers Inc.",
+  "timestamp": "2025-08-20T20:01:28.578Z",
+  "createdBy": "tristen",
+  "data": [
+    {
+      "id": 5,
+      "name": "Real Rail Workers Inc.",
+      "type": "Contract",
+      "monthly_revenue": 0,
+      "contract_start": "2025-08-20T14:59:00.312Z",
+      "contact_person": "To be provided",
+      "status": "Active"
+    },
+    {
+      "id": 6,
+      "name": "Real Rail Workers Inc.",
+      "type": "Contract",
+      "monthly_revenue": null,
+      "contract_start": "2025-08-20T14:59:40.057Z",
+      "contact_person": "N/A",
+      "status": "Active"
+    }
+  ]
+}

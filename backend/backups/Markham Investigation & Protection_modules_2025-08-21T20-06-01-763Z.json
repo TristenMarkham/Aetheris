@@ -1,0 +1,24 @@
+{
+  "companyId": "Markham Investigation & Protection",
+  "backupType": "modules",
+  "description": "Backup before deleting all 1 modules",
+  "timestamp": "2025-08-21T20:06:01.763Z",
+  "createdBy": "tristen",
+  "data": [
+    {
+      "id": "1755806157938",
+      "name": "All Guard",
+      "description": "A robust scheduling system similar to TrackTik with complete functionality including GPS tracking and patrol management.",
+      "features": [
+        "GPS tracking",
+        "Patrol management",
+        "Scheduling",
+        "Reporting",
+        "Timekeeping"
+      ],
+      "created": "2025-08-21T19:55:57.938Z",
+      "createdBy": "tristen",
+      "type": "ai_generated"
+    }
+  ]
+}
